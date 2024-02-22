@@ -8,12 +8,12 @@ const Perfil = () => {
     <div class="bg-gray-50 dark:bg-gray-800 py-20">
     <div class="contenedor">
       <div class="mb-28">
-        <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
-          Tailus blocks leadership
-        </h2>
+        <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
+        Valentín Scheuermann
+        </h1>
         <p class="text-center text-gray-600 dark:text-gray-300 lg:mx-auto lg:w-8/12">
-          Tailus prides itself not only on award-winning technology, but also on the talent of its
-          people of some of the brightest minds and most experienced executives in business.
+        Full Stack Developer especializado en Front-End. Siempre me ha apasionado la tecnología en todos sus aspectos. Desde que empecé a programar, mi principal objetivo fue poder utilizar la creatividad y la identificación de un problema o necesidad, para construir un proyecto y darle solución. Siempre me caractericé por ser autodidacta, y aprendo muy fácilmente nuevos conocimientos, lo que me ha permitido siempre amoldarme y ser flexible a cualquier trabajo.
+
         </p>
       </div>
       <div class="perfil">

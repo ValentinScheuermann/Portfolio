@@ -7,3 +7,8 @@
     display: flex;
     flex-direction: row-reverse;
 }
+.decrip {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end
+}
