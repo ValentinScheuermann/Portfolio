@@ -1,5 +1,5 @@
 import React from 'react'
-import valen from '../../assets/valen.png'
+import valen from '../../assets/valen.jpeg'
 
 const Miembros = () => {
   return (
