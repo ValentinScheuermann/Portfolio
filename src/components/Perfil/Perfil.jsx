@@ -31,8 +31,8 @@ const Perfil = () => {
             />
           </div>
           <div class="perfil">
-            <h4 class="text-2xl  text-gray-700 dark:text-white">Ortance Doe</h4>
-            <span class="block text-sm text-gray-500">Marketing</span>
+            <h4 class="text-2xl  text-gray-700 dark:text-white">Valentin Scheuermann</h4>
+            <span class="block text-sm text-gray-500">Full-Stack Developer</span>
           </div>
           <div class="flex justify-center space-x-4 text-gray-500">
             <a href="#" target="_blank" aria-label="facebook">
