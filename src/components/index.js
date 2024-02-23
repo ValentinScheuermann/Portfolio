@@ -1,12 +1,12 @@
 import Navbar from "./Navbar/Navbar";
-import Miembros from "./Miembros/Miembros";
+import Proyectos from "./Proyectos/Proyectos";
 import Tecnologias from "./Tecnologias/Tecnologias";
 import Footer from "./Footer/Footer";
 import Perfil from "./Perfil/Perfil";
 
 export {
     Navbar,
-    Miembros,
+    Proyectos,
     Tecnologias,
     Footer,
     Perfil

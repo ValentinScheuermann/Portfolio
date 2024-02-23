@@ -1,7 +1,7 @@
 import React from 'react'
 import { 
     Navbar,
-    Miembros,
+    Proyectos,
     Tecnologias,
     Footer,
     Perfil
@@ -12,7 +12,7 @@ const Home = () => {
     <div>
     <Navbar/>
     <Perfil/>
-    <Miembros/>
+    <Proyectos/>
     <Tecnologias/>
     <Footer/>
     </div>

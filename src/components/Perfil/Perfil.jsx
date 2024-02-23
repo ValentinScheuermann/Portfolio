@@ -11,7 +11,7 @@ const Perfil = () => {
         <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
         Valentín Scheuermann
         </h1>
-        <p class="text-center text-gray-600 dark:text-gray-300 lg:mx-auto lg:w-8/12">
+        <p class="text-start text-2xl text-gray-900 dark:text-gray-300 lg:mx-auto lg:w-8/12">
         Full Stack Developer especializado en Front-End. Siempre me ha apasionado la tecnología en todos sus aspectos. Desde que empecé a programar, mi principal objetivo fue poder utilizar la creatividad y la identificación de un problema o necesidad, para construir un proyecto y darle solución. Siempre me caractericé por ser autodidacta, y aprendo muy fácilmente nuevos conocimientos, lo que me ha permitido siempre amoldarme y ser flexible a cualquier trabajo.
 
         </p>
@@ -35,19 +35,19 @@ const Perfil = () => {
             <span class="block text-sm text-gray-500">Full-Stack Developer</span>
           </div>
           <div class="flex justify-center space-x-4 text-gray-500">
-            <a href="#" target="_blank" aria-label="facebook">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-6 hover:text-primary"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-                />
-              </svg>
-            </a>
-            <a href="#" target="_blank" aria-label="instagram">
+          <a href="https://api.whatsapp.com/send/?phone=%2B5492216164153&text=Hola+Valentin&type=phone_number&app_absent=0" target="_blank" aria-label="outlook">
+          <svg
+             xmlns="http://www.w3.org/2000/svg"
+             class="w-10 hover:text-primary"
+              fill="currentColor"
+              viewBox="-10 5 38 34"
+            >
+             <path
+               d= " M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
+             />
+            </svg>
+             </a>
+            <a href="https://www.instagram.com/valenscheuermann/" target="_blank" aria-label="instagram">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="w-6 hover:text-primary"
@@ -59,19 +59,19 @@ const Perfil = () => {
                 />
               </svg>
             </a>
-            <a href="#" target="_blank" aria-label="instagram">
+            <a href="mailto:valen.scheuermann@hotmail.com" target="_blank" aria-label="instagram">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="w-6 hover:text-primary"
                 fill="currentColor"
-                viewBox="0 0 16 16"
+                viewBox="0 4 22 30"
               >
-                <path
-                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                />
+                 <path
+                d="M 12.402344 17.347656 C 11.871094 18.03125 11.203125 18.382812 10.410156 18.414062 C 9.640625 18.375 8.984375 18.015625 8.453125 17.34375 C 7.925781 16.664062 7.648438 15.816406 7.632812 14.796875 C 7.648438 13.765625 7.910156 12.910156 8.441406 12.234375 C 8.972656 11.558594 9.628906 11.203125 10.394531 11.171875 C 11.191406 11.203125 11.859375 11.558594 12.375 12.234375 C 12.902344 12.910156 13.175781 13.765625 13.195312 14.796875 L 13.226562 14.796875 C 13.214844 15.816406 12.933594 16.667969 12.402344 17.347656 Z M 16.957031 4.609375 L 4.492188 6.777344 L 4.492188 22.796875 L 16.957031 24.90625 Z M 18.105469 8.710938 L 18.105469 13.296875 L 19.933594 14.707031 L 26.789062 9.351562 C 26.773438 9.160156 26.699219 9.003906 26.558594 8.886719 C 26.417969 8.769531 26.246094 8.710938 26.050781 8.710938 L 18.105469 8.710938 "
+                  />  
               </svg>
             </a>
-            <a href="#" target="_blank" aria-label="instagram">
+            <a href="https://www.linkedin.com/in/valentin-scheuermann-b85995246/" target="_blank" aria-label="instagram">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="w-6 hover:text-primary"
