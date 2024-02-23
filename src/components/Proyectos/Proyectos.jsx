@@ -1,6 +1,7 @@
 import React from 'react';
 import logopc from '../../assets/logopc.webp';
 import games from '../../assets/games.jpeg';
+import hotel from '../../assets/hotel.jpeg'
 
 const Proyecto = ({ imageUrl, title, subtitle, description, linkUrl }) => {
 
@@ -33,7 +34,7 @@ const Proyectos = () => {
       imageUrl: logopc,
       title: 'E-Commerce - MakeMyPc',
       subtitle: 'Componentes de computacion',
-      description: 'Ecommerce desarrollado para venta de componentes informaticos',
+      description: 'Ecommerce desarrollado para la comercializacion de componentes informaticos',
       linkUrl: 'https://p-final-p-ccorp-front.vercel.app',
     },
     {
@@ -41,13 +42,13 @@ const Proyectos = () => {
       title: 'Videogames App',
       subtitle: 'Largest API website',
       description: 'Mira un recorrido por la app de informacion mas grande de Videogames',
-      linkUrl: 'https://p-final-p-ccorp-front.vercel.app',
+      linkUrl: 'https://vimeo.com/905643198',
     },  {
-      imageUrl: logopc,
-      title: 'E-Commerce - MakeMyPc',
-      subtitle: 'Componentes de computacion',
-      description: 'Ecommerce desarrollado para venta de componentes informaticos',
-      linkUrl: 'https://p-final-p-ccorp-front.vercel.app',
+      imageUrl: hotel,
+      title: 'Serena - Hotel',
+      subtitle: 'Hoteleria',
+      description: 'Alquiler de las mejores Suits ubicadas en en el corazon de un precioso Bosque',
+      linkUrl: 'https://serena-hotel.vercel.app',
     },  {
       imageUrl: logopc,
       title: 'E-Commerce - MakeMyPc',
