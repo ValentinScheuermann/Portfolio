@@ -1,5 +1,5 @@
 import React from 'react';
-import logopc from '../../assets/logopc.webp';
+import logopc from '../../assets/logopc.jpeg';
 import games from '../../assets/games.jpeg';
 import hotel from '../../assets/hotel.jpeg'
 
@@ -9,14 +9,16 @@ const Proyecto = ({ imageUrl, title, subtitle, description, linkUrl }) => {
     <a href={linkUrl} target="_blank" rel="noopener noreferrer">
     <div className="group relative rounded-3xl space-y-6 overflow-hidden">
       <img
-        className="mx-auto h-[26rem] w-full grayscale object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+        className="mx-auto h-[26rem] w-full grayscale object-cover object-top transition duration-500 group-hover:scale-105 
+        group-hover:grayscale-0"
         src={imageUrl}
         alt="woman"
         loading="lazy"
         width="640"
         height="805"
       />
-      <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+      <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white 
+      translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
         <div>
           <h4 className="text-xl font-semibold dark:text-gray-700 text-white">{title}</h4>
           <span className="block text-sm text-gray-500">{subtitle}</span>
@@ -49,24 +51,18 @@ const Proyectos = () => {
       subtitle: 'Hoteleria',
       description: 'Alquiler de las mejores Suits ubicadas en en el corazon de un precioso Bosque',
       linkUrl: 'https://serena-hotel.vercel.app',
-    },  {
-      imageUrl: logopc,
-      title: 'E-Commerce - MakeMyPc',
-      subtitle: 'Componentes de computacion',
-      description: 'Ecommerce desarrollado para venta de componentes informaticos',
-      linkUrl: 'https://p-final-p-ccorp-front.vercel.app',
-    },
+    }, 
   ];
 
   return (
     <div className="py-20">
       <div className="xl:container mx-auto px-6 md:px-12">
         <div className="mb-16 md:w-2/3 lg:w-1/2">
-        <h1 class="mb-4 text-start text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
+        <h1 class="titulo-proyectos">
             PROYECTOS
           </h1>
         </div>
-        <div className="grid gap-6 px-4 sm:px-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="proy">
           {proyectos.map((proyecto, index) => (
             <Proyecto key={index} {...proyecto} />
           ))}

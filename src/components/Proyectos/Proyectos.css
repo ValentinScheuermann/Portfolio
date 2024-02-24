@@ -1,0 +1,38 @@
+.proy {
+    display: flex;
+    gap: 1.5rem; /* Aquí puedes ajustar el valor según sea necesario */
+    padding: 1rem;
+}
+
+@media (min-width: 640px) {
+    .proy {
+        padding: 0;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 768px) {
+    .proy {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .proy {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+.titulo-proyectos {
+    margin-bottom: 1rem; /* mb-4 */
+    text-align: end; /* text-end */
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: bold; /* font-bold */
+    color: #4b5563; /* text-gray-800 */
+}
+
+@media (min-width: 768px) {
+    .titulo-proyectos {
+        font-size: 2rem; /* md:text-4xl */
+    }
+}
