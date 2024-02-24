@@ -58,7 +58,7 @@ const Proyectos = () => {
     <div className="py-20">
       <div className="xl:container mx-auto px-6 md:px-12">
         <div className="mb-16 md:w-2/3 lg:w-1/2">
-        <h1 class="titulo-proyectos">
+        <h1 class="mb-4 text-start text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
             PROYECTOS
           </h1>
         </div>

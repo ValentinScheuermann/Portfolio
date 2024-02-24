@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css'
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   return (
@@ -20,14 +22,14 @@ const Navbar = () => {
     <a className="btn btn-ghost text-xl">My Portfolio</a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Inicio</a></li>
-      <li><a>Sobre mi</a></li>
-      <li><a>Tecnologias</a></li>
-      <li><a>Proyectos</a></li>
-      <li><a>Contacto</a></li>
-    </ul>
-  </div>
+  <ul className="menu menu-horizontal px-1">
+    <li><Link to="/">Inicio</Link></li>
+    <li><Link to="/about">Sobre mi</Link></li>
+    <li><Link to="/technologies">Tecnologias</Link></li>
+    <li><Link to="/projects">Proyectos</Link></li>
+    <li><Link to="/ContactMe">Contacto</Link></li> 
+  </ul>
+</div>
   <div className="navbar-end">
     <a className="btn">Button</a>
   </div>

@@ -11,7 +11,7 @@ const Perfil = () => {
         <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
         Valentín Scheuermann
         </h1>
-        <p class="text-start text-2xl text-gray-900 dark:text-gray-300 lg:mx-auto lg:w-8/12">
+        <p class="text-start text-2xl text-gray-500 dark:text-gray-500 lg:mx-auto lg:w-8/12">
         Full Stack Developer especializado en Front-End. Siempre me ha apasionado la tecnología en todos sus aspectos. Desde que empecé a programar, mi principal objetivo fue poder utilizar la creatividad y la identificación de un problema o necesidad, para construir un proyecto y darle solución. Siempre me caractericé por ser autodidacta, y aprendo muy fácilmente nuevos conocimientos, lo que me ha permitido siempre amoldarme y ser flexible a cualquier trabajo.
 
         </p>
