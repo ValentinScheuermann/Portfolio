@@ -2,6 +2,7 @@ import React from 'react';
 import logopc from '../../assets/logopc.jpeg';
 import games from '../../assets/games.jpeg';
 import hotel from '../../assets/hotel.jpeg'
+import './Proyectos.css'
 
 const Proyecto = ({ imageUrl, title, subtitle, description, linkUrl }) => {
 
