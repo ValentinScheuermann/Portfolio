@@ -11,7 +11,7 @@ const Tecnologias = () => {
     <div class="container relative z-[1] m-auto px-6 md:px-12">
       <div class="m-auto text-center md:w-8/12 lg:w-6/12">
         <h2 class="text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
-          Trabajo con las siguiente <span class="text-primary">Tecnologias</span>
+           <span class="text-primary">Tecnologias</span>
         </h2>
       </div>
       <div class="m-auto mt-16 md:w-11/12 lg:w-8/12 xl:w-7/12">
@@ -40,7 +40,7 @@ const Tecnologias = () => {
             class="group rounded-xl border border-gray-200 dark:border-gray-600 bg-white bg-opacity-5 py-2 px-4 hover:bg-opacity-10"
           >
             <img
-              src={bootstrap}
+              src={react}
               class="contrast-0 transition group-hover:contrast-100"
               loading="lazy"
               alt="logo ge"

@@ -131,8 +131,8 @@ const Footer = () => {
             </div>
           </div>
           <div class="flex justify-between border-t border-gray-100 dark:border-gray-800 py-4 pb-8 md:pl-16">
-            <span>&copy; tailus 2003 - <span id="year"></span> </span>
-            <span>All right reserved</span>
+            <span>&copy; Portfolio Desarrollador por Valentin Scheuermann - <span id="year"></span> </span>
+            <span>All right reserved to Valentin Scheuermann</span>
           </div>
         </div>
       </div>
