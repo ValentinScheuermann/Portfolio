@@ -37,14 +37,14 @@ const Proyectos = () => {
       imageUrl: logopc,
       title: 'E-Commerce - MakeMyPc',
       subtitle: 'Componentes de computacion',
-      description: 'Ecommerce desarrollado para la comercializacion de componentes informaticos',
+      description: 'Ecommerce desarrollado para la venta de componentes informáticos',
       linkUrl: 'https://p-final-p-ccorp-front.vercel.app',
     },
     {
       imageUrl: games,
       title: 'Videogames App',
       subtitle: 'Largest API website',
-      description: 'Mira un recorrido por la app de informacion mas grande de Videogames',
+      description: 'Mira un recorrido por la app de información mas grande de Videogames',
       linkUrl: 'https://vimeo.com/905643198',
     },  {
       imageUrl: hotel,
