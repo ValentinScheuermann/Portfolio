@@ -4,6 +4,7 @@ import Tecnologias from "./Tecnologias/Tecnologias";
 import Footer from "./Footer/Footer";
 import Perfil from "./Perfil/Perfil";
 import Contacto from "./Contacto/Contacto";
+import Divider from "./Divider/Divider";
 
 export {
     Navbar,
@@ -11,5 +12,6 @@ export {
     Tecnologias,
     Footer,
     Perfil,
-    Contacto
+    Contacto,
+    Divider
 };

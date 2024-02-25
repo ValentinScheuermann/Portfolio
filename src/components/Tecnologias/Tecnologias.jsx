@@ -1,6 +1,9 @@
 import React from 'react'
 import bootstrap from '../../assets/bootstrap.png'
 import react from '../../assets/react.png'
+import figma from '../../assets/figma.png'
+import jslogo from '../../assets/jslogo.png'
+
 import './Tecnologias.css'
 
 
@@ -40,7 +43,7 @@ const Tecnologias = () => {
             class="group rounded-xl border border-gray-200 dark:border-gray-600 bg-white bg-opacity-5 py-2 px-4 hover:bg-opacity-10"
           >
             <img
-              src={react}
+              src={figma}
               class="contrast-0 transition group-hover:contrast-100"
               loading="lazy"
               alt="logo ge"
@@ -50,7 +53,7 @@ const Tecnologias = () => {
             class="group rounded-xl border border-gray-200 dark:border-gray-600 bg-white bg-opacity-5 py-2 px-4 hover:bg-opacity-10"
           >
             <img
-              src={react}
+              src={jslogo}
               class="contrast-0 transition group-hover:contrast-100"
               loading="lazy"
               alt="logo bissell"

@@ -3,9 +3,22 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
+  ],plugins: [require('daisyui')],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+        "primary": "#0fe3ebf3",     
+        "secondary": "#2AA556", 
+        "accent": "#38bdf8",     
+        "neutral": "#F6EDD9",  
+        "base-100": "#F3FCF4",    
+        "info": "#4ab5ff",  
+        "success": "#00e38c", 
+        "warning": "#fef08a", 
+        "error": "#ff7781",
+        },
+      },
+    ],
   },
-  plugins: [require('daisyui')],
-}
+};
