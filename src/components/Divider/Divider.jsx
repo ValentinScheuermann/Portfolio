@@ -5,7 +5,7 @@ const Divider = () => {
   return (
 <div>
     <div className="flex flex-col w-full">
-    <div className="divider divider-primary"> - - - -</div>
+    <div className="divider divider-primary"></div>
     </div>
 </div>
   )

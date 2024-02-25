@@ -5,7 +5,8 @@ import {
     Tecnologias,
     Footer,
     Perfil,
-    Divider
+    Divider,
+    Propuesta
  } from '../../components/index'
 
 const Home = () => {
@@ -15,7 +16,9 @@ const Home = () => {
     <Perfil/>
     <Divider/>
     <Proyectos/>
-
+    <Divider/>
+    <Propuesta/>
+    <Divider/>
     <Footer/>
     </div>
   )

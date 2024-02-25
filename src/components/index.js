@@ -5,6 +5,7 @@ import Footer from "./Footer/Footer";
 import Perfil from "./Perfil/Perfil";
 import Contacto from "./Contacto/Contacto";
 import Divider from "./Divider/Divider";
+import Propuesta from "./Propuesta/Propuesta";
 
 export {
     Navbar,
@@ -13,5 +14,6 @@ export {
     Footer,
     Perfil,
     Contacto,
-    Divider
+    Divider,
+    Propuesta
 };
