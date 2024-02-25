@@ -13,10 +13,9 @@ const Navbar = () => {
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
       <li><a>Inicio</a></li>
-      <li><a>Sobre mi</a></li>
-      <li><a>Tecnologias</a></li>
-      <li><a>Proyectos</a></li>
       <li><a>Contacto</a></li>
+      <li><a>Curriculum Vitae</a></li>
+
       </ul>
     </div>
     <a href='/' className="btn btn-ghost text-xl">My Portfolio</a>
@@ -24,10 +23,9 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
   <ul className="menu menu-horizontal px-1">
     <li><Link to="/">Inicio</Link></li>
-
-
-
     <li><Link to="/ContactMe">Contacto</Link></li> 
+    <li><Link to="https://drive.google.com/file/d/10kcHOj4WxXkei5Dur0Qltx0SECG2ymJ5/view" target="_blank" >Curriculum</Link></li>
+
   </ul>
 </div>
 

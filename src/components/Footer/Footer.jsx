@@ -10,7 +10,7 @@ const Footer = () => {
               role="list"
               className="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
             >
-              <li role="listitem"><a href="#" className="hover:text-primary">Home</a></li>
+              <li role="listitem"><a href="/" className="hover:text-primary">Home</a></li>
               <li role="listitem"><a href="/ContactMe" className="hover:text-primary">Contact</a></li>
 
             </ul>
