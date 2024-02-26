@@ -1,4 +1,6 @@
 import React from 'react';
+import logomio from '../../assets/logomio.png'
+import './Footer.css'
 
 const Footer = () => {
   return (
@@ -6,6 +8,9 @@ const Footer = () => {
       <footer className="w-full bg-gray-100 dark:bg-gray-900 py-16">
         <div className="md:px-12 lg:px-28">
           <div className="container m-auto space-y-6 text-gray-600 dark:text-gray-300">
+            <div className='divlogo'>
+            <img  src={logomio} alt='logo mio' className='logomio'/>
+            </div>
             <ul
               role="list"
               className="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"

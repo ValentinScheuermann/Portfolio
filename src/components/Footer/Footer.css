@@ -1,0 +1,11 @@
+.logomio {
+    display: flex;
+margin: 0;
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+}
+.divlogo {
+    display: flex;
+justify-content: center;
+}
