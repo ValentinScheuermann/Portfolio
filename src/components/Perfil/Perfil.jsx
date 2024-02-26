@@ -1,5 +1,6 @@
 import React from 'react'
 import valen2 from '../../assets/valen2.jpeg'
+import valen5 from '../../assets/valen5.jpeg'
 import './Perfil.css'
 
 const Perfil = () => {
@@ -23,7 +24,7 @@ const Perfil = () => {
           >
             <img
               class="mx-auto h-full w-full -rotate-45 scale-125 object-cover transition duration-300 group-hover:scale-[1.4]"
-              src={valen2}
+              src={valen5}
               alt="woman"
               loading="lazy"
               width="640"

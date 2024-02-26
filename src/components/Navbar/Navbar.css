@@ -1,3 +1,12 @@
 .navbar {
     background-color: #0fe3ebf3 ;
 }
+.logodev {
+    height: 50px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.px-0 {
+    font-size: 15px !important;
+}

@@ -1,6 +1,9 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
+import logomio from '../../assets/logomio.png'
+import logomio2 from '../../assets/logomio2.png'
+
 
 
 const Navbar = () => {
@@ -18,10 +21,11 @@ const Navbar = () => {
 
       </ul>
     </div>
-    <a href='/' className="btn btn-ghost text-xl">My Portfolio</a>
+    <img href='/' className='logodev' src={logomio}/>
+    <a href='/' className="btn btn-ghost text-xl">Portfolio</a>
   </div>
-  <div className="navbar-center hidden lg:flex">
-  <ul className="menu menu-horizontal px-1">
+  <div className="navbar-start hidden lg:flex">
+  <ul className="menu menu-horizontal px-0">
     <li><Link to="/">Inicio</Link></li>
     <li><Link to="/ContactMe">Contacto</Link></li> 
     <li><Link to="https://drive.google.com/file/d/1NTbY_1BLLZz8GAv7jiNs3qo1VqXawtd2/view?usp=sharing" target="_blank" >Curriculum</Link></li>

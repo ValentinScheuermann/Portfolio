@@ -1,7 +1,8 @@
 import React from 'react';
 import logopc from '../../assets/logopc.jpeg';
 import games from '../../assets/games.jpeg';
-import hotel from '../../assets/hotel.jpeg'
+import hotel from '../../assets/hotel.jpeg';
+import pcfoto1 from '../../assets/pcfoto1.png'
 import './Proyectos.css'
 
 const Proyecto = ({ imageUrl, title, subtitle, description, linkUrl }) => {
@@ -34,7 +35,7 @@ const Proyecto = ({ imageUrl, title, subtitle, description, linkUrl }) => {
 const Proyectos = () => {
   const proyectos = [
     {
-      imageUrl: logopc,
+      imageUrl: pcfoto1,
       title: 'E-Commerce - MakeMyPc',
       subtitle: 'Componentes de computacion',
       description: 'Ecommerce desarrollado para la venta de componentes informáticos',
