@@ -32,7 +32,7 @@ const Contacto = () => {
                   <span className="hidden font-medium md:block dark:text-white">Github</span>
                 </div>
               </a>
-              <a aria-label="CV" href="https://drive.google.com/file/d/10kcHOj4WxXkei5Dur0Qltx0SECG2ymJ5/view?usp=sharing"  target="_blank" className="p-4 border border-gray-200 dark:bg-gray-800 dark:border-gray-700 rounded-full duration-300 hover:border-blue-400 hover:shadow-lg hover:shadow-blue-600/20 dark:hover:border-blue-300/30">
+              <a aria-label="CV" href="https://drive.google.com/file/d/1NTbY_1BLLZz8GAv7jiNs3qo1VqXawtd2/view?usp=sharing"  target="_blank" className="p-4 border border-gray-200 dark:bg-gray-800 dark:border-gray-700 rounded-full duration-300 hover:border-blue-400 hover:shadow-lg hover:shadow-blue-600/20 dark:hover:border-blue-300/30">
                 <div className="flex justify-center space-x-4">
                   <img className="w-6 h-6" src={CV} alt="CV logo" loading="lazy" width="128" height="128" />
                   <span className="hidden font-medium md:block dark:text-white">Curriculum Vitae</span>
