@@ -10,3 +10,6 @@
 .px-0 {
     font-size: 15px !important;
 }
+.navbar {
+    border-radius: 15px;
+}
