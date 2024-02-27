@@ -21,8 +21,11 @@ const Navbar = () => {
 
       </ul>
     </div>
-    <img href='/' className='logodev' src={logomio}/>
-    <a href='/' className="btn btn-ghost text-xl">Portfolio</a>
+    <a href='/'>
+    <img className='logodev' src={logomio}/>
+    </a>
+    <a href='/' className="btn btn-ghost text-xl">Portfolio
+    </a>
   </div>
   <div className="navbar-start hidden lg:flex">
   <ul className="menu menu-horizontal px-0">
