@@ -13,15 +13,15 @@
 }
 
 .perfil-info {
-    margin-bottom: 1rem; /* Espacio entre la imagen y el texto */
+    margin-bottom: 1rem;
 }
 
 .redes-sociales {
     display: flex;
     justify-content: center;
-    gap: 1rem; /* Espacio entre iconos de redes sociales */
+    gap: 1rem; 
 }
 
 .descripcion {
-    margin-top: 2rem; /* Espacio entre la imagen y el texto */
+    margin-top: 2rem; 
 }
