@@ -40,12 +40,12 @@ const Contacto = () => {
               </a>
             </div>
 
-            <div className="pt-12 flex gap-6 lg:gap-12 justify-between grayscale lg:w-2/3">
+            {/* <div className="pt-12 flex gap-6 lg:gap-12 justify-between grayscale lg:w-2/3">
               <img src="./images/clients/airbnb.svg" className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
               <img src="./images/clients/ge.svg" className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
               <img src="./images/clients/coty.svg" className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
               <img src="./images/clients/microsoft.svg" className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
