@@ -1,25 +1,25 @@
 .proy {
-display: flex;
-    gap: 1.5rem; /* Aquí puedes ajustar el valor según sea necesario */
+    display: flex;
+    gap: 1.5rem; /* Espacio entre los proyectos */
     padding: 1rem;
-}
-
-@media (min-width: 640px) {
+  }
+  
+  .proyecto {
+    flex: 1 0 calc(100% - 1.5rem); /* Ocupar todo el ancho del contenedor y restar el espacio entre proyectos */
+    margin-bottom: 1.5rem;
+  }
+  
+  @media screen and (max-width: 767px) {
     .proy {
-        padding: 0;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Centrar los proyectos en dispositivos móviles */
+      gap: 1.5rem; /* Espacio entre los proyectos */
+      padding: 1rem;
     }
-}
-
-@media (min-width: 768px) {
-    .proy {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+  
+    .proyecto {
+      flex-basis: calc(100% - 1.5rem); /* Un proyecto por fila en dispositivos móviles */
     }
-}
-
-@media (min-width: 1024px) {
-    .proy {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-}
-
+  }
+  
