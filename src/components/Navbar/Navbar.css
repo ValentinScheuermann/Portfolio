@@ -1,5 +1,7 @@
 .navbar {
-    background-color: #0fe3ebf3 ;
+    background-color: #0fe3ebf3;
+    border-radius: 15px;
+margin-right: -280px;
 }
 .logodev {
     height: 50px;
@@ -9,7 +11,5 @@
 
 .px-0 {
     font-size: 15px !important;
-}
-.navbar {
-    border-radius: 15px;
+    gap: 30px !important;
 }
