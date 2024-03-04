@@ -1,0 +1,20 @@
+{
+  "navbar": {
+    "home": "Home",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "profile": {
+    "descriptionMia": "Full Stack Developer specialized in Front-End. I've always been passionate about technology in all its aspects. Since I started programming, my main goal has been to use creativity and problem-solving skills to build projects and provide solutions. I've always been self-taught and easily acquire new knowledge, which has often allowed me to adapt and be flexible in any job."
+  },
+  "projectsAndContact": {
+    "projTitle": "Check out some of my projects",
+    "offerLab": "Would you like a portfolio like this? Want your own landing page? Contact me and let's talk!",
+    "contact": "Do you want to work with me? Below, I'll leave you my contact information and resume."
+  },
+  "projects": {
+    "proj1": "E-commerce developed for the sale of computer components.",
+    "proj2": "Take a tour of the largest video game information app.",
+    "proj3": "Rent the best suits located in the heart of a beautiful forest."
+  }
+}
