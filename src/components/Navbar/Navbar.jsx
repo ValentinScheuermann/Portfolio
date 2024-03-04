@@ -48,7 +48,7 @@ const Navbar = () => {
         <a href='/'>
           <img className='logodev' src={logomio} alt="Logo" />
         </a>
-        <a href='/' className="btn btn-ghost text-xl">Portfolio</a>
+        <a href='/' className="portfolio">Portfolio</a>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-0">

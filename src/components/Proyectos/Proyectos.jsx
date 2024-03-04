@@ -74,7 +74,7 @@ const Proyectos = () => {
       <div className="xl:container mx-auto px-6 md:px-12">
         <div className="mb-16 md:w-2/3 lg:w-1/2">
           <h1 className="sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-blue-900 text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-blue">
-            Mira algunos de mis  <br className="lg:block hidden" /> 
+            Projects  <br className="lg:block hidden" /> 
             <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary dark:from-primaryLight dark:to-secondaryLight">Proyectos</span>
           </h1>
         </div>

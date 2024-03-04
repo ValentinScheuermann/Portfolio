@@ -1,16 +1,31 @@
-import React from 'react';
-import linkedin from '../../assets/linkedin.png'
-import whatsapp from '../../assets/whatsapp.png'
-import CV from '../../assets/CV.jpeg'
-import github from '../../assets/github.png'
-import instagram from '../../assets/instagram.png'
+import React, { useState } from 'react';
+import linkedin from '../../assets/linkedin.png';
+import whatsapp from '../../assets/whatsapp.png';
+import CV from '../../assets/CV.jpeg';
+import github from '../../assets/github.png';
 
 const Contacto = () => {
+  const [isSpanish, setIsSpanish] = useState(true);
+
+  const toggleLanguage = () => {
+    setIsSpanish(!isSpanish);
+  };
+
   return (
     <div className="relative pt-40 pb-20 lg:pt-44">
       <div className="relative xl:container m-auto px-6 md:px-12 lg:px-6">
-        <h1 className="sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-blue-900 text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-blue">¿Queres trabajar conmigo? <br className="lg:block hidden" /> 
-        <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary dark:from-primaryLight dark:to-secondaryLight">Aca abajo te dejo mi contacto y Curriculum</span></h1>
+        <h1 className="sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-blue-900 text-4xl text-center sm:text-5xl md:text-6xl 
+        lg:w-auto lg:text-left xl:text-7xl dark:text-blue">
+          {isSpanish ? '¿Quieres trabajar conmigo?' : 'Do you want to work with me?'} 
+          <br className="lg:block hidden" /> 
+          <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary dark:from-primaryLight 
+        dark:to-secondaryLight">
+            {isSpanish ? 'Aca abajo te dejo mi contacto y Curriculum' : 'Below you can find my contact and Resume'}
+          </span>
+        </h1>
+        <button className="btn btn-primary" onClick={toggleLanguage}>
+          {isSpanish ? 'Translate' : 'Traducir'}
+        </button>
         <div className="lg:flex">
           <div className="relative mt-8 md:mt-16 space-y-8 sm:w-10/12 md:w-2/3 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto lg:w-7/12">
             <div className="grid grid-cols-3 space-x-4 md:space-x-6 md:flex md:justify-center lg:justify-start">
@@ -39,13 +54,6 @@ const Contacto = () => {
                 </div>
               </a>
             </div>
-
-            {/* <div className="pt-12 flex gap-6 lg:gap-12 justify-between grayscale lg:w-2/3">
-              <img src="./images/clients/airbnb.svg" className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
-              <img src="./images/clients/ge.svg" className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
-              <img src="./images/clients/coty.svg" className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
-              <img src="./images/clients/microsoft.svg" className="h-8 sm:h-10 w-auto lg:h-12" alt="" />
-            </div> */}
           </div>
         </div>
       </div>
