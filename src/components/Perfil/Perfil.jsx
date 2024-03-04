@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import valen2 from '../../assets/valen2.jpeg'
 import valen5 from '../../assets/valen5.jpeg'
 import './Perfil.css'
 
+
 const Perfil = () => {
+    const [translated, setTranslated] = useState(false);
+  
+    const handleTranslate = () => {
+      setTranslated(!translated);
+    };
   return (
     <div className="bg-gray-50 dark:bg-gray-800 py-20">
       <div className="contenedor">
@@ -75,11 +81,27 @@ const Perfil = () => {
             </div>
           </div>
           <div className="descripcion">
-            <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">Valentín Scheuermann</h1>
-            <p className="text-start text-2xl text-gray-500 dark:text-gray-500 lg:mx-auto lg:w-8/12">
-              Full Stack Developer especializado en Front-End. Siempre me ha apasionado la tecnología en todos sus aspectos. Desde que empecé a programar, mi principal objetivo fue poder utilizar la creatividad y la identificación de un problema o necesidad, para construir un proyecto y darle solución. Siempre me caractericé por ser autodidacta, y aprendo muy fácilmente nuevos conocimientos, lo que me ha permitido muchas veces amoldarme y ser flexible a cualquier trabajo.
-            </p>
-          </div>
+  <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">Valentín Scheuermann</h1>
+  <p className="text-start text-2xl text-gray-500 dark:text-gray-500 lg:mx-auto lg:w-8/12">
+    Full Stack Developer especializado en Front-End. Siempre me ha apasionado la tecnología en todos sus aspectos. 
+    Desde que empecé a programar, mi principal objetivo fue poder utilizar la creatividad y la identificación de un problema o necesidad, 
+    para construir un proyecto y darle solución. Siempre me caractericé por ser autodidacta, y aprendo muy fácilmente nuevos conocimientos, 
+    lo que me ha permitido muchas veces amoldarme y ser flexible a cualquier trabajo.
+  </p>
+
+  <button className="btn" onClick={() => document.getElementById('my_modal_2').showModal()}>Translate</button>
+  <dialog id="my_modal_2" className="modal">
+    <div className="modal-box">
+      <h3 className="font-bold text-lg">About me</h3>
+      <p className="py-4">Full Stack Developer specialized in Front-End. I've always been passionate about technology in all its aspects. 
+      Since I started programming, my main goal has been to use creativity and problem-solving skills to build projects and provide solutions. 
+      I've always been self-taught and easily acquire new knowledge, which has often allowed me to adapt and be flexible in any job.</p>
+    </div>
+    <form method="dialog" className="modal-backdrop">
+      <button>close</button>
+    </form>
+  </dialog>
+</div>
         </div>
       </div>
     </div>
