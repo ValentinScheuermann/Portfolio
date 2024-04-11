@@ -58,8 +58,8 @@ const Navbar = () => {
             <details ref={dropdownRef}>
               <summary>Curriculum - Resume</summary>
               <ul className="CV">
-                <li><Link to="https://drive.google.com/file/d/1DPvvjx1sG0j18Q4oERovnmcrvsPo-aG5/view?usp=sharing" target="_blank" rel="noopener noreferrer">En - Resume</Link></li>
-                <li><Link to="https://drive.google.com/file/d/1NTbY_1BLLZz8GAv7jiNs3qo1VqXawtd2/view?usp=sharing" target="_blank" rel="noopener noreferrer">Es - Curriculum</Link></li>
+              <li><Link to="https://drive.google.com/file/d/1xUjAmZF9wfM7uK0ViYicHjbxXuFgHwXC/view?usp=sharing" target="_blank" rel="noopener noreferrer">ES - Resume</Link></li>
+              <li><Link to="https://drive.google.com/file/d/1UFq1pxw-UV1GD1TDF9kpJowyyF6nLjvl/view?usp=sharing" target="_blank" rel="noopener noreferrer">EN - Curriculum</Link></li>
               </ul>
             </details>
           </li>
